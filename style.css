@@ -23,10 +23,14 @@ input, textarea, select, button {
   padding: 7px;
   margin: 0;
   box-sizing: border-box;
-  border: 1px dotted #999;
+  border: 1px solid #999;
   border-radius: 0;
   font-family : inherit;
   font-size   : 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 #search-box {
